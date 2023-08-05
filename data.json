@@ -1,0 +1,74 @@
+{
+  "dialogues": [
+      {
+          "speaker": "Narrador",
+          "text": "Você acorda em um quarto escuro e empoeirado. Não se lembra de como chegou aqui. A única coisa que você sabe é que precisa sair desse lugar misterioso.\n\nO que você deseja fazer?",
+          "options": [
+              { "option": "Explorar o quarto.", "response": "Você explora o quarto e encontra uma chave escondida embaixo da cama.", "nextDialogueIndex": 1 },
+              { "option": "Gritar por ajuda.", "response": "Você grita por ajuda, mas ninguém responde.", "nextDialogueIndex": 2 },
+              { "option": "Verificar a porta.", "response": "Você tenta abrir a porta, mas está trancada.", "nextDialogueIndex": 3 }
+          ]
+      },
+      {
+          "speaker": "Narrador",
+          "text": "Com a chave em mãos, você consegue destrancar a porta e sai do quarto. Agora você está em um corredor escuro e desconhecido. Para onde deseja ir?",
+          "options": [
+              { "option": "Seguir em frente.", "response": "Você segue em frente pelo corredor, com a esperança de encontrar uma saída.", "nextDialogueIndex": 4 },
+              { "option": "Voltar para o quarto.", "response": "Você decide voltar para o quarto onde acordou.", "nextDialogueIndex": 5 }
+          ]
+      },
+      {
+          "speaker": "Narrador",
+          "text": "Seus gritos ecoam pelo corredor, mas ninguém parece ouvir. Você se sente ainda mais perdido e desesperado.",
+          "options": [
+              { "option": "Explorar o quarto.", "response": "Você explora o quarto e encontra uma chave escondida embaixo da cama.", "nextDialogueIndex": 1 },
+              { "option": "Verificar a porta.", "response": "Você tenta abrir a porta, mas está trancada.", "nextDialogueIndex": 3 }
+          ]
+      },
+      {
+          "speaker": "Narrador",
+          "text": "Você decide seguir em frente pelo corredor. Ele parece interminável e você começa a se perguntar se há alguma saída.",
+          "options": [
+              { "option": "Continuar em frente.", "response": "Você continua caminhando pelo corredor, determinado a encontrar uma saída.", "nextDialogueIndex": 6 },
+              { "option": "Voltar para o quarto.", "response": "Você decide voltar para o quarto onde acordou.", "nextDialogueIndex": 5 }
+          ]
+      },
+      {
+          "speaker": "Narrador",
+          "text": "Você volta para o quarto onde acordou. Não há mais nada a fazer aqui.",
+          "options": [
+              { "option": "Explorar o quarto novamente.", "response": "Você explora o quarto mais uma vez, mas não encontra nada de novo.", "nextDialogueIndex": 5 },
+              { "option": "Voltar para o corredor.", "response": "Você decide voltar para o corredor.", "nextDialogueIndex": 3 }
+          ]
+      },
+      {
+          "speaker": "Narrador",
+          "text": "Você está de volta ao corredor escuro.",
+          "options": [
+              { "option": "Seguir em frente.", "response": "Você segue em frente pelo corredor, com a esperança de encontrar uma saída.", "nextDialogueIndex": 6 },
+              { "option": "Voltar para o quarto.", "response": "Você decide voltar para o quarto onde acordou.", "nextDialogueIndex": 5 }
+          ]
+      },
+      {
+          "speaker": "Narrador",
+          "text": "Você continua caminhando pelo corredor, sem saber para onde está indo. A escuridão ao seu redor é opressora.",
+          "options": [
+              { "option": "Continuar em frente.", "response": "Você continua caminhando, sem desistir.", "nextDialogueIndex": 7 },
+              { "option": "Voltar para o quarto.", "response": "Você decide voltar para o quarto onde acordou.", "nextDialogueIndex": 5 }
+          ]
+      },
+      {
+          "speaker": "Narrador",
+          "text": "Depois de muito caminhar, você finalmente encontra uma porta no fim do corredor. Ela parece ser a saída que tanto procurava.\n\nO que você deseja fazer?",
+          "options": [
+              { "option": "Abrir a porta.", "response": "Você abre a porta e finalmente sai desse lugar sombrio. Parabéns, você conseguiu escapar!", "nextDialogueIndex": 8 },
+              { "option": "Voltar para o corredor.", "response": "Você decide voltar para o corredor.", "nextDialogueIndex": 6 }
+          ]
+      },
+      {
+          "speaker": "Narrador",
+          "text": "Você está livre! Parabéns por escapar desse lugar misterioso.",
+          "options": []
+      }
+  ]
+}

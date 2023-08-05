@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #333;
+  background: url('fundo.jpg');
+}
+
+.background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+  padding-top: 50px;
+}
+
+.game-title {
+  color: white;
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.container {
+  width: 100%;
+  max-width: 800px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+}
+
+.chatbox {
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  max-height: 60vh;
+  overflow-y: auto;
+  color: #333;
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: monospace;
+}
+
+.input-box {
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+#user-input {
+  width: 100%;
+  padding: 5px;
+  color: #333;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #333;
+  outline: none;
+  font-size: 16px;
+}
+/* ... (o restante do código CSS permanece igual) ... */
+
+.chatbox {
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  max-height: 60vh;
+  overflow-y: auto;
+  color: #333;
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: monospace;
+  white-space: pre-wrap;
+}
+
+/* ... (o restante do código CSS permanece igual) ... */
+
+.left-dialogue {
+  text-align: left;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  white-space: pre-wrap;
+}
+
+.right-dialogue {
+  text-align: right;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  white-space: pre-wrap;
+}
